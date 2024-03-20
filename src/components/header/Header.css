@@ -19,6 +19,9 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
+  background-image: url('bck.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
 }
 .logo {
   position: absolute;
@@ -53,13 +56,14 @@ body {
 .side-menu {
   position: fixed;
   top: 0;
-  right: -300px; /* Initially off-screen */
-  width: 250px;
+  right: -400px; /* Initially off-screen */
+  width: 350px;
   height: 100%;
   background-color: rgba(40, 42, 42, 0.2); /* Transparent black */
   backdrop-filter: blur(5px);
   display:flex;
   justify-content: space-between;
+  text-align: left;
   transition: left 0.3s ease;
 }
 
@@ -73,11 +77,15 @@ body {
   margin: 50px 20px;
   font-size: 30px;
   color: #fff;
+  text-align:left;
+  
 }
 
 ul {
   list-style: none;
   padding: 0 15px;
+  text-align: left;
+  
 }
 
 ul li{
@@ -86,6 +94,12 @@ ul li{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-align: left;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 
 .content {
