@@ -19,7 +19,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  background-image: url('bck.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('bck.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
   background-size: cover; /* Cover the entire background */
   background-position: center; /* Center the background image */
 }
@@ -30,6 +30,7 @@ body {
   text-decoration: none;
   font-size: 50px;
   font-weight: 900;
+  color: wheat;
 
 }
 
@@ -59,7 +60,7 @@ body {
   right: -400px; /* Initially off-screen */
   width: 350px;
   height: 100%;
-  background-color: rgba(40, 42, 42, 0.2); /* Transparent black */
+  background-color: rgba(211, 221, 221, 0.2); /* Transparent black */
   backdrop-filter: blur(5px);
   display:flex;
   justify-content: space-between;
@@ -99,6 +100,7 @@ ul li{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: #fff;
 
 }
 
@@ -111,24 +113,32 @@ ul li{
   justify-content: center;
   align-items: flex-start;
   padding-left: 90px;
+  color: #fff;
   
 }
 .right{
   width: 50%;
   /* justify-content: start;
   text-align: ; */
+  background-image: url('h4.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center;
 }
 .left{
   width: 50%;
   text-align: left;
+  
+
 }
-.title {
-  font-size: 20px;
+.title h1 {
+  color: white;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .description {
   font-size: 18px;
+  color: #fff;
 }
 
   

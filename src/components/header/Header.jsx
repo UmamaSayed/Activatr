@@ -37,7 +37,11 @@ const Header = () => {
           </ul>
         </div>
         <div className="content">
-          <div className="right"></div>
+          <div className="right">
+            <div>
+              
+            </div>
+          </div>
           <div className="left">
             <div className="title">
               <h1>
