@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ;
+  line-height: 1.5;
+   /* Background color */
+  color: #000000; /* Text color */
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  position: absolute;
+  top: 20px; /* Adjust top position as needed */
+  left: 50px; /* Adjust left position as needed */
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 900;
+
+}
+
+
+.menu-icon {
+  position: absolute;
+  top: 45vh;
+  right: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+/* Header.css */
+/* Existing styles... */
+
+.close-button {
+  position: absolute;
+  top: 43vh;
+  right: 20px;
+  font-size: 70px;
+  cursor: pointer;
+  color: #fff; /* Adjust color as needed */
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Initially off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: rgba(40, 42, 42, 0.2); /* Transparent black */
+  backdrop-filter: blur(5px);
+  display:flex;
+  justify-content: space-between;
+  transition: left 0.3s ease;
+}
+
+.side-menu.open {
+  right: 0; /* Slide in when menu is open */
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 50px 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0 15px;
+}
+
+ul li{
+  margin: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.content {
+  width: 1170px;
+  height: 70vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 90px;
+  
+}
+.right{
+  width: 50%;
+  /* justify-content: start;
+  text-align: ; */
+}
+.left{
+  width: 50%;
+  text-align: left;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+  
+  
